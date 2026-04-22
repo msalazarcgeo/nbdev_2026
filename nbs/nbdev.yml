@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_2026"
+  site-url: "https://msalazarcgeo.github.io/nbdev_2026"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/msalazarcgeo/nbdev_2026"

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbdev_2026"
+dynamic = ["version"]
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "MSalazarCgeo", email = "msalazar@centrogeo.edu.mx"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/msalazarcgeo/nbdev_2026"
+Documentation = "https://msalazarcgeo.github.io/nbdev_2026/"
+
+[project.entry-points.nbdev]
+nbdev_2026 = "nbdev_2026._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "nbdev_2026.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["nbdev_2026"]
+
+[tool.nbdev]

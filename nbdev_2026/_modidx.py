@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://msalazarcgeo.github.io',
                 'git_url': 'https://github.com/msalazarcgeo/nbdev_2026',
                 'lib_path': 'nbdev_2026'},
-  'syms': {'nbdev_2026.core': {'nbdev_2026.core.foo': ('core.html#foo', 'nbdev_2026/core.py')}}}
+  'syms': { 'nbdev_2026.core': { 'nbdev_2026.core.saludo': ('core.html#saludo', 'nbdev_2026/core.py'),
+                                 'nbdev_2026.core.saludo_a': ('core.html#saludo_a', 'nbdev_2026/core.py')}}}

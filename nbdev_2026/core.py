@@ -7,13 +7,13 @@ Docs: https://msalazarcgeo.github.io/nbdev_2026core.html.md"""
 # %% auto #0
 __all__ = ['saludo', 'saludo_a']
 
-# %% ../nbs/00_core.ipynb #31932141
+# %% ../nbs/00_core.ipynb #d238b945
 def saludo():
     """Imprime Hola"""
     print('Hola!')
     return
 
-# %% ../nbs/00_core.ipynb #ea97ae6d
+# %% ../nbs/00_core.ipynb #ba8ae1fd
 def saludo_a(to):
     """Imprime hola a un nombre"""
     print('Hola!', to)
